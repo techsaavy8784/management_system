@@ -1,0 +1,239 @@
+{
+  "app_title": "نظام محتوى الفسح الذاتي",
+
+  "video": "فيديو",
+  "document": "كتاب",
+
+  "dashboard": "لوحة المعلومات",
+  "multimedia": "الوسائط المتعددة",
+  "reports": "التقارير",
+  "access": "الوصول",
+  "settings": "الإعدادات",
+  "videos": "المحتوى المرئي",
+  "documents": "المحتوى المقروء",
+  "upload": "رفع",
+
+  "name": "الاسم",
+  "status": "الحالة",
+  "rating": "التقييم",
+  "classification": "التصنيف",
+  "moderator-status": "الحالة حسب المراقب",
+  "ai-approval": "مراجعة الذكاء الاصطناعي",
+  "submission-date": "تاريخ الرفع",
+  "actions": "اجراءات",
+
+  "column": {
+    "name": "الاسم",
+    "status": "الحالة",
+    "rating": "التقييم",
+    "classification": "التصنيف",
+    "moderator status": "الحالة حسب المراقب",
+    "ai approval": "مراجعة الذكاء الاصطناعي",
+    "actions": "الاجراءات",
+    "language": "اللغة",
+    "submission date": "تاريخ الرفع",
+
+    "scene number": "رقم المشهد",
+    "scene status": "حالة المشهد",
+    "ai classification": "تصنيف الذكاء الاصطناعي",
+
+    "topic number": "رقم الموضوع",
+    "topic name": "اسم الموضوع",
+
+    "question": "السؤال",
+    "moderator approval": "موافقة المراقب",
+    "ai detection": "كشف الذكاء الاصطناعي",
+    "pages": "الصفحات"
+  },
+
+  "rowActions": {
+    "insight": "التفاصيل",
+    "approval": "الموافقة",
+    "log out": "تسجيل خروج"
+  },
+
+  "rowStatus": {
+    "new": "قيد الإنتظار",
+    "uploaded": "تم الرفع",
+    "processing": "جاري المعالجة",
+    "processed": "تمت المعالجة",
+    "failed": "حصلت مشكلة أثناء المعالجة",
+    "not assigned": "غير معتمد"
+  },
+
+  "rowRating": {
+    "none": "none",
+    "g": "G",
+    "pg": "PG",
+    "pg12": "PG12",
+    "pg15": "PG15",
+    "r18": "R18",
+    "r15": "R15",
+    "missing": "غير موجود",
+    "not assigned": "غير معتمد"
+  },
+
+  "rowApproval": {
+    "new": "قيد الإنتظار",
+    "inreview": "قيد المراجعة",
+    "approved": "تمت المراجعة",
+    "rejected": "تم اكتشاف موضوع أو أكثر",
+    "pending": "قيد الانتظار",
+    "none": "لا يوجد",
+    "not assigned": "غير معتمد"
+  },
+
+
+  "rowClassification": {
+    "sexual": "محتوى اباحي",
+    "violence": "محتوى العنف",
+    "hate": "محتوى الكره",
+    "selfharm": "محتوى الأذى الذاتي",
+    "not assigned": "غير معتمد"
+  },
+
+  "uploadDlg": {
+    "upload media": "رفع المحتوى",
+    "closeWarnning-msg": "من فضلك لا تقم بتحديث الصفحة. نحن نقوم بمعالجة طلبك!",
+    "step": {
+      "media type": "نوع المحتوى",
+      "new or old": "جديد أو قديم",
+      "source": "المصدر",
+      "launch": "انتهاء",
+      "mediaType-question": "مالذي تريد رفعه؟",
+      "titleEmpty-msg": "العنوان فارغ",
+      "duplicateId-msg": "اسم الفيديو موجود بالفعل. الرجاء اختيار اسم آخر والرفع مجدداً.",
+      "name-placeHolder": "أدخل الاسم للمحتوى",
+
+      "sourceFile-question": "أين هو الملف المصدر",
+      "Upload from your PC": "تحميل من جهاز الكمبيوتر الخاص بك",
+      "Drag your file here or": "اسحب ملفك هنا أو",
+      "Browse": "تصفح",
+      "Maximum file size 2GB": "الحد الأقصى لحجم الملف 2 جيجابايت",
+      "Start the Upload": "ابدأ التحميل",
+
+      "Video Upload": "تحميل المحتوى المرئي",
+      "Document Upload": "تحميل المحتوى المكتوب",
+      "Uploading": "جارٍ التحميل",
+      "Analyzing": "التحليل",
+      "Indexing": "الفهرسة",
+      "Scoring": "التقييم",
+      "disclaimer": "الرجاء عدم اغلاق هذه الصفحة حتى تنتهي المرحلة الأولى من التحميل."
+    },
+    "msg": {
+      "uploadFileProcessError": "آسف! حدث خطأ ما أثناء معالجة الملف الذي تم تحميله.",
+      "uploadFileSuccess": "تم تحميل الملف بنجاح.",
+      "uploadFileError": "آسف! حدث خطأ ما أثناء تحميل الملف.",
+      "validNoFile": "لم يتم اختيار أي ملف",
+      "validVideoFile": "الرجاء تحديد المحتوى بالصيغة الصحيحة",
+      "validPdfFile": "الرجاء تحديد ملف pdf صالح",
+      "validOverFile": "الرجاء إعادة تحديد الملف. حجم الملف يزيد عن 2 جيجا بايت"
+    }
+  },
+
+  "drawer": {
+    "video": {
+      "Video for the": "فيديو ل",
+      "Scene": "المشهد",
+      "STATUS": "الحالة",
+      "RATING": "التقييم",
+      "AI CLASSIFICATION": "تصنيف الذكاء الاصطناعي",
+      "SUBMISSION DATE": "تاريخ التقديم",
+      "AI APPROVAL": "مراجعة الذكاء الاصطناعي",
+
+      "Update Scene Status": "تحديث حالة المشهد",
+      "Update Topic": "تحديث الموضوع",
+      "Write your note": "اكتب ملاحظتك"
+    },
+    "msg": {
+      "updateVideoSceneSuccess": "تم تحديث بيانات ملخص مشهد الفيديو بنجاح",
+      "updateVideoSceneError": "حدث خطأ أثناء تحديث ملخص مشهد الفيديو",
+      "updateApprovalStatusSuccess": "تم بنجاح تحديث حالة الموافقة",
+      "updateApprovalStatusError": "حدث خطأ أثناء تحديث حالة الموافقة"
+    },
+
+    "No answers": "لا يوجد أجوبة",
+    "Answer found": "تم العثور على الإجابة",
+    "Answer not found": "لم يتم العثور على الجواب",
+
+    "Play the Scene": "تشغيل المشهد",
+    "Activities": "الأنشطة",
+    "Overview": "الملخص",
+    "Questions": "الأسئلة",
+
+    "History": "تاريخ",
+    "No History yet": "لا يوجد تاريخ بعد",
+    "Book": "الكتاب",
+    "Topic": "الموضوع"
+  },
+
+  "updateApproval": {
+    "Approval": "الموافقة",
+    "Moderator Approval": "موافقة المراقب",
+    "Meida Rating": "تقييم المحتوى",
+    "Notes": "الملاحظات",
+    "Enter the notes": "أدخل الملاحظات",
+
+    "Document Approval": "الموافقة على الكتاب",
+    "Book": "الكتاب",
+    "Topic": "العنوان",
+    "Question": "السؤال",
+    "Page": "الصفحة",
+    "Topic Approval": "الموافقة على الموضوع",
+    "Question Approval": "الموافقة على السؤال",
+
+    "Ai opinion": "نتائج مراجعة الذكاء الاصطناعي",
+    "AiOpinion-answer": "هل تتفق مع مراجعة وتصنيف الذكاء الاصطناعي للسؤال,جوابك مهم جداً لتحسين جودة مراجعة الذكاء الاصطناعي في المستقبل ؟",
+    "Snippet": "المقتطف",
+    "findAnswer-question": "هل وجدت إجابة لهذا السؤال في الكتاب؟",
+
+    "msg": {
+      "updateSuccess": "تم بنجاح تحديث حالة الموافقة",
+      "updateError": "حدث خطأ أثناء تحديث حالة الموافقة"
+    }
+  },
+
+  "auth": {
+  },
+
+  "toggle": {
+    "approved": "موافقة",
+    "rejected": "مرفوض"
+  },
+
+  "opinion": {
+    "positive": "إيجابي",
+    "negative": "سلبي",
+    "natural": "طبيعي",
+    "no answer": "لا اجابة"
+  },
+
+  "violence-classification": {
+    "sexual": "إباحي",
+    "self-harm": "مؤذي ذاتياً",
+    "hate": "كره",
+    "violence": "عنف"
+  },
+
+  "This part will come soon": "سيأتي هذا الجزء قريبا",
+
+  "Update Scene Status": "تحديث حالة المشهد",
+
+  "scene": "المشهد",
+  "topic": "الموضوع",
+
+  "next": "التالي",
+  "back": "للخلف",
+  "update": "تحديث",
+
+  "Yes": "نعم",
+  "No": "لا",
+
+  "processing": "قيد المعالجة",
+  "not assigned": "غير معتمد",
+
+  "arabic": "اللغة العربية",
+  "english": "اللغة الانجليزية",
+
+  "admin": "مسؤول النظام"
+}
